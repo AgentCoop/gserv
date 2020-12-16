@@ -1,0 +1,6 @@
+general:
+  secret: "mysecret"
+clusters:
+  join-secret: # if left empty will be auto-generated on webserver start
+virtual-hosts:
+  - hostname: sandbox
